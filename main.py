@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys
 
-def main(old):
+def main():
     st.set_page_config(page_title="Прогнозирование выручки от продаж", layout="wide")
     st.markdown(
         """
@@ -59,4 +59,4 @@ def main(old):
 
 
 if __name__ == "__main__":
-    main(old=[])
+    main()
